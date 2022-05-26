@@ -247,9 +247,9 @@ def jogo1():
     global mouse_position
     px = 0
     py = 0
-    x = 0
-    y = 0
-    angulo = 0
+    x = 350
+    y = 350
+    angulo = 180
     maosVazias = True
     maosCtd = ""
     conteudo = ""    

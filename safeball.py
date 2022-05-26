@@ -271,7 +271,6 @@ def jogo1():
                     duvida = False
                 #tela jogo
                 if mouse_position[0] >= 300 and mouse_position[0] <= 740 and mouse_position[1] >= 200 and mouse_position[1] <= 420 and duvida == False:
-                    print("aquiduvida")
                     duvida = True
                 else:
                     duvida = False
@@ -339,10 +338,8 @@ def jogo1():
             maosVazias = False
             conteudo = random.randint(0,7)
             if conteudo <= 4:
-                print("certos")
                 maosCtd = "itensCertos"
             else:
-                print("errados")
                 maosCtd = "itensErrados"            
 
         #toca mochila
